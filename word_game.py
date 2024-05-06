@@ -1,4 +1,6 @@
-#Word Game 4/16/24
+#Word Game (Started - 4/16/24, Finished - 5/5/24)
+
+
 import random
 import os
 def word_game():
@@ -6,7 +8,8 @@ def word_game():
     game_is_over = False
     while (not game_is_over):
 
-        word_bank = ["leopard", "lion", "dog", "seal"]
+        word_bank = ["leopard", "lion", "dog", "seal", "cat", "snake", "wolf", "sheep", 
+                     "cheetah", "rat", "pig", "shark", "octopus", "hamster", "horse"]
 
         # Counter to keep track of turns
         player_one_guesses = 0
@@ -184,6 +187,7 @@ def word_game():
         else:
             print("It's a tie!")
             game_is_over = True
+    #Game Over is printed         
     print("GAME OVER ")
 word_game()
 

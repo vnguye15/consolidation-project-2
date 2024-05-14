@@ -121,6 +121,8 @@ def word_game():
             print("---------------------------------")
             p2_letter_guess = input("Player two it is now your turn, guess the letter: ")
             p2_score += 1
+            if " " in p1_letter_guess: 
+                print("No spaces. Try again")
             #if letter guessed is in the word
             if (p2_letter_guess in guessing_word):
                 #if the letter guessed IS NOT already in the word bank then add it

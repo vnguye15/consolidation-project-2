@@ -14,3 +14,7 @@ Happy Guessing!
 
 1. Download and clone the project into your directory while you have an IDE opened (In this case, VS CODE)
 2. Navigate to word_game.py and run the code
+
+
+
+This project was created by Viet Nguyen in collaboration with Jayla Parrot who helped add more unique features to the project. A special shout out to John Avante for giving me plentiful ideas on how to implement this game 

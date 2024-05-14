@@ -47,6 +47,8 @@ def word_game():
             #whenever p1 guesses letter, increase p1 score
             print("---------------------------------")
             p1_letter_guess = input("Player one it is now your turn, guess the letter: ")
+            if " " in p1_letter_guess: 
+                print("No spaces. Try again")
             p1_score += 1
             #if letter guessed is in the word
             if (p1_letter_guess in guessing_word):
